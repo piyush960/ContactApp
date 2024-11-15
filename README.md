@@ -2,7 +2,7 @@
 ---
 
 ### 📕 About <a name = "about"></a>
-The Contact Management System (CMS) is a mini feature of a CRM designed to streamline the management of client or customer contact information. It enables users to add, view, update, and delete contact details efficiently. The CMS simplifies access to organized data, making it easier to maintain and leverage relationships crucial for business success.
+The Contact Management System (CMS) is a mini feature of a CRM designed to streamline the management of client or customer contact information.
 
 ### Technical Decisions
 - **MySQL Database**: MySQL ensures efficient CRUD operations for structured data.
@@ -39,14 +39,14 @@ git clone https://github.com/piyush960/ContactApp.git
 ```
 
 2. Set up the backend first
-go to ./backend directory
+go to backend directory
 ```shell
 cd backend
 ```
 ```shell
 npm install
 ```
-create a .env in the [backend](./backend) directory
+create a .env file in the [backend](./backend) directory
 and configure it with following fields
 ```shell
 PORT = 8080
@@ -62,17 +62,17 @@ run the following command to fire up the backend
 npm run dev
 ```
 
-3. Set up the MySQL Database
-Copy and Paste the [db.sql](./backend/db.sql) file in MySQL Workbench or any suitable software capable of running the script
+3. Set up the MySQL Database. <br/>
+Copy and Paste the [db.sql](./backend/db.sql) file in MySQL Workbench or any suitable software capable of running the script.
 
 If you see the entries in contact table then you are all good to proceed.
 
-4. Setting up the React App in [frontend](./frontend) directory.
+4. Setting up the React App in [frontend](./frontend) directory. <br/>
 go to frontend directory and run the following command
 ``` shell
 npm install 
 ```
-after successfull install run the following
+after successfull installation run the following command
 ```shell
 npm run dev
 ```
@@ -99,7 +99,7 @@ Solution: Used MUI's validation attributes and custom validators to ensure prope
 ### Why MySQL ?
 1. Contact management inherently involves structured data with defined relationships (e.g., first name, last name, email, phone number, etc.).
 
-2. Familiarity and Community Support
+2. Familiarity and Community Support.
 
 3. A fixed schema ensures that every contact record adheres to the same structure, which simplifies backend and frontend integration.
 
