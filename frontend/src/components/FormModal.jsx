@@ -67,14 +67,18 @@ export default function FormModal({isOpen, setIsOpen, data, mode, onReload, setI
       dispatch({type: 'JOBTITLE', payload: data.job_title})
     }
     else{
-      dispatch({type: 'FIRSTNAME', payload: ''})
-      dispatch({type: 'LASTNAME', payload: ''})
-      dispatch({type: 'EMAIL', payload: ''})
-      dispatch({type: 'MOBILE', payload: ''})
-      dispatch({type: 'COMPANY', payload: ''})
-      dispatch({type: 'JOBTITLE', payload: ''})
+      clearFields()
     }
   }, [data])
+
+  const clearFields = () => {
+    dispatch({type: 'FIRSTNAME', payload: ''})
+    dispatch({type: 'LASTNAME', payload: ''})
+    dispatch({type: 'EMAIL', payload: ''})
+    dispatch({type: 'MOBILE', payload: ''})
+    dispatch({type: 'COMPANY', payload: ''})
+    dispatch({type: 'JOBTITLE', payload: ''})
+  }
 
   const handleFormSubmit = async (e) => {
     e.preventDefault()
@@ -99,6 +103,7 @@ export default function FormModal({isOpen, setIsOpen, data, mode, onReload, setI
         if(response.data.success){
           setToastMsg('Added Successfully')
           setIsToastOpen(true)
+          clearFields()
         }
         else{
           setToastMsg('Failed: ' + response.data.message)
