@@ -22,9 +22,9 @@ The Contact Management System (CMS) is a mini feature of a CRM designed to strea
 
 
 ### 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine.
-OR
-see the deployed project [here](https://contact-app-reactnode.vercel.app/)
+These instructions will get you a copy of the project up and running on your local machine. <br/>
+OR <br/>
+see the **deployed project** [here](https://contact-app-reactnode.vercel.app/)
 
 #### Prerequisites
 The following TechStack is required to be install on your machine.
@@ -47,7 +47,7 @@ cd backend
 npm install
 ```
 create a .env in the [backend](./backend) directory
-configure it with following fields
+and configure it with following fields
 ```shell
 PORT = 8080
 DB_USER = your_user_name
@@ -81,17 +81,17 @@ Go to [http://localhost:5173/](http://localhost:5173/) to see the app
 
 ### Challenges Faced
 
-1. Integrating Material-UI Components
-Challenge: Using Material-UI (MUI) components for forms and tables initially felt overwhelming due to unfamiliarity with their props and styling methods.
+1. Integrating Material-UI Components <br/>
+Challenge: Using Material-UI (MUI) components for forms and tables initially felt overwhelming due to unfamiliarity with their props and styling methods. <br/>
 Solution: Referred to MUI documentation and examples to understand the API and applied consistent theming for a polished look.
 
-2. Passing Data Between Components
-Challenge: Passing data from the child component (e.g., a button in the contact table) to the parent to manage modal state was challenging.
+2. Passing Data Between Components <br/>
+Challenge: Passing data from the child component (e.g., a button in the contact table) to the parent to manage modal state was challenging. <br/>
 Solution: Used React props and state management to pass callbacks from the parent to the child.
 
 3. API Error Handling and Form Validation
-Challenge: Ensuring the form captures all required fields with proper validation (e.g., email format, phone number length). Properly validating inputs to prevent invalid data (e.g., duplicate email entries or missing fields).
-Solution: Used MUI's validation attributes and custom validators to ensure proper input formats. Added middleware in Express to validate request bodies and return descriptive error messages. 
+Challenge: Ensuring the form captures all required fields with proper validation (e.g., email format, phone number length). Properly validating inputs to prevent invalid data (e.g., duplicate email entries or missing fields). <br/>
+Solution: Used MUI's validation attributes and custom validators to ensure proper input formats. Added middleware in Express to validate request bodies and return descriptive error messages.  <br/>
 
 4. There was a slight learning curve for MUI's Table component.
 
