@@ -89,7 +89,7 @@ Solution: Referred to MUI documentation and examples to understand the API and a
 Challenge: Passing data from the child component (e.g., a button in the contact table) to the parent to manage modal state was challenging. <br/>
 Solution: Used React props and state management to pass callbacks from the parent to the child.
 
-3. API Error Handling and Form Validation
+3. API Error Handling and Form Validation <br/>
 Challenge: Ensuring the form captures all required fields with proper validation (e.g., email format, phone number length). Properly validating inputs to prevent invalid data (e.g., duplicate email entries or missing fields). <br/>
 Solution: Used MUI's validation attributes and custom validators to ensure proper input formats. Added middleware in Express to validate request bodies and return descriptive error messages.  <br/>
 

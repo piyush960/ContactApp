@@ -160,7 +160,7 @@ export default function FormModal({isOpen, setIsOpen, data, mode, onReload, setI
             <TextField id="outlined-basic" error={phoneError} slotProps={{input: {startAdornment: (<InputAdornment position="start"><LocalPhone /></InputAdornment>),},}} label="Mobile No." variant="outlined" value={state.phone_number} onChange={(e) => dispatch({type: 'MOBILE', payload: e.target.value})}/>
             <TextField id="outlined-basic" slotProps={{input: {startAdornment: (<InputAdornment position="start"><Apartment /></InputAdornment>),},}} label="Company" variant="outlined" value={state.company} onChange={(e) => dispatch({type: 'COMPANY', payload: e.target.value})}/>
             <TextField id="outlined-basic" slotProps={{input: {startAdornment: (<InputAdornment position="start"><Work /></InputAdornment>),},}} label="Job Title" variant="outlined" value={state.job_title} onChange={(e) => dispatch({type: 'JOBTITLE', payload: e.target.value})}/>
-            <Button variant='contained' type='submit' sx={{my: 1, gridColumnStart: 2, position: 'relative', widht: 10, ml: 22}}>{mode.toUpperCase()}</Button>
+            <Button variant='contained' color='secondary' type='submit' sx={{my: 1, gridColumnStart: 2, position: 'relative', widht: 10, ml: 22}}>{mode.toUpperCase()}</Button>
           </Box>
         </Box>
       </Modal>
