@@ -8,7 +8,7 @@ export default defineConfig({
   
   define: {
   
-  ‘process.env.VITE_APP_YOUR_KEY’:JSON.stringify(process.env.VITE_APP_YOUR_KEY)
+  'process.env.VITE_REACT_ENV':JSON.stringify(process.env.VITE_REACT_ENV)
   
   }
   
