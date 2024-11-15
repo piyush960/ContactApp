@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const env = process.env.VITE_REACT_ENV
+const env = import.meta.env.VITE_REACT_ENV
 
 URL = "http://localhost:8080/api/contacts/"
 if(env === 'production') URL = "https://cms-wr28.onrender.com/api/contacts/" ;
