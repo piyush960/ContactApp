@@ -5,7 +5,7 @@ const env = import.meta.env.VITE_REACT_ENV
 URL = "http://localhost:8080/api/contacts/"
 if(env === 'production') URL = "https://cms-wr28.onrender.com/api/contacts/" ;
 
-console.log(URL)
+// console.log(URL)
 
 export const get_contacts = async () => {
 	try {
