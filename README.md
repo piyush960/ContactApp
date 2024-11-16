@@ -38,7 +38,7 @@ The following TechStack is required to be install on your machine.
 git clone https://github.com/piyush960/ContactApp.git
 ```
 
-2. Set up the backend first.<br/>
+2. Set up the backend first.
    - go to [backend](./backend) directory.
 ```shell
 cd backend
@@ -61,11 +61,11 @@ NODE_ENV = development
 npm run dev
 ```
 
-3. Set up the MySQL Database. <br/>
+3. Set up the MySQL Database.
    - Copy and Paste the [db.sql](./backend/db.sql) file in MySQL Workbench or any suitable software capable of running the script.
    - If you see the entries in contacts table, then you are all good to proceed.
 
-4. Setting up the React App in [frontend](./frontend) directory. <br/>
+4. Setting up the React App in [frontend](./frontend) directory.
    - go to frontend directory and run the following command.
 ``` shell
 npm install 
