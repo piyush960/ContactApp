@@ -63,7 +63,6 @@ npm run dev
 
 3. Set up the MySQL Database. <br/>
    - Copy and Paste the [db.sql](./backend/db.sql) file in MySQL Workbench or any suitable software capable of running the script.
-<br/>
    - If you see the entries in contacts table, then you are all good to proceed.
 
 4. Setting up the React App in [frontend](./frontend) directory. <br/>
