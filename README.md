@@ -77,17 +77,17 @@ The following TechStack is required to be install on your machine.
    - Go to [http://localhost:5173/](http://localhost:5173/) to see the app.
 
 
-### Challenges Faced
+### Challenges Faced  
 
-1. Integrating Material-UI Components <br/>
-Challenge: Using Material-UI (MUI) components for forms and tables initially felt overwhelming due to unfamiliarity with their props and styling methods. <br/>
-Solution: Referred to MUI documentation and examples to understand the API and applied consistent theming for a polished look.
+1. **Integrating Material-UI Components**  
+   Challenge: Using Material-UI (MUI) components for forms and tables initially felt overwhelming due to unfamiliarity with their props and styling methods.  
+   Solution: Referred to MUI documentation and examples to understand the API and applied consistent theming for a polished look.  
 
-2. There was a slight learning curve for MUI's Table component.
+2. **There was a slight learning curve for MUI's Table component.**  
 
-3. API Error Handling and Form Validation <br/>
-Challenge: Ensuring the form captures all required fields with proper validation (e.g., email format, phone number length). Properly validating inputs to prevent invalid data (e.g., duplicate email entries or missing fields). <br/>
-Solution: Used MUI's validation attributes and custom validators to ensure proper input formats. Added middleware in Express to validate request bodies and return descriptive error messages.  <br/>
+3. **API Error Handling and Form Validation**  
+   Challenge: Ensuring the form captures all required fields with proper validation (e.g., email format, phone number length). Properly validating inputs to prevent invalid data (e.g., duplicate email entries or missing fields).  
+   Solution: Used MUI's validation attributes and custom validators to ensure proper input formats. Added middleware in Express to validate request bodies and return descriptive error messages.  
 
 
 ### Why MySQL ?
