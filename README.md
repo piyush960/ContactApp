@@ -34,32 +34,32 @@ The following TechStack is required to be install on your machine.
 
 #### Steps
 1. Clone the repository.
-```shell
-git clone https://github.com/piyush960/ContactApp.git
-```
+   ```shell
+   git clone https://github.com/piyush960/ContactApp.git
+   ```
 
 2. Set up the backend first.
-   - go to [backend](./backend) directory.
-```shell
-cd backend
-```
-```shell
-npm install
-```
+   - Navigate to the [backend](./backend) directory.
+      ```shell
+      cd backend
+      ```
+      ```shell
+      npm install
+      ```
    - create a .env file in the [backend](./backend) directory and configure it with following fields.
-```shell
-PORT = 8080
-DB_USER = your_user_name
-DB_NAME = your_db_name
-DB_PASSWORD = your_password
-DB_HOST = your_host_name
-DB_PORT = your_db_port_number
-NODE_ENV = development
-```
+      ```shell
+      PORT = 8080
+      DB_USER = your_user_name
+      DB_NAME = your_db_name
+      DB_PASSWORD = your_password
+      DB_HOST = your_host_name
+      DB_PORT = your_db_port_number
+      NODE_ENV = development
+      ```
    - run the following command to fire up the backend.
-```shell
-npm run dev
-```
+      ```shell
+      npm run dev
+      ```
 
 3. Set up the MySQL Database.
    - Copy and Paste the [db.sql](./backend/db.sql) file in MySQL Workbench or any suitable software capable of running the script.
@@ -67,13 +67,13 @@ npm run dev
 
 4. Setting up the React App in [frontend](./frontend) directory.
    - go to frontend directory and run the following command.
-``` shell
-npm install 
-```
+      ``` shell
+      npm install 
+      ```
    - after successfull installation start the app using the following command.
-```shell
-npm run dev
-```
+      ```shell
+      npm run dev
+      ```
    - Go to [http://localhost:5173/](http://localhost:5173/) to see the app.
 
 
